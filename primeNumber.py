@@ -1,4 +1,4 @@
-from socket import MsgFlag
+from time import time
 
 
 L = int(input("EnterLower Value"))
@@ -13,3 +13,10 @@ for i in range(L,U):
            # print(j)
     if(count==0):
         print(i,end=" ")
+print("\n")
+from datetime import datetime
+
+now = datetime.now()
+
+current_time = now.strftime("%H:%M:%S")
+print("Current Time =", current_time)
