@@ -1,5 +1,6 @@
-
-for i in range(10,20):
+L = int(input("EnterLower Value"))
+U = int(input("EnterUpper Value"))
+for i in range(L,U):
     count=0
     #print(i)
     for j in range(2,i):
@@ -7,4 +8,4 @@ for i in range(10,20):
             count=count+1
            # print(j)
     if(count==0):
-        print(i)
+        print(i,end=" ")
